@@ -1,3 +1,4 @@
+
 body{
 background-image:url("1.jpg");
 background-repeat:repeat-x;
@@ -50,4 +51,104 @@ border-bottom-style:double;
 border-left-style:inset;
 border-color:black green red grey;
 background-color:lightblue;
+}
+#id3
+{
+font-family:georgia,garamond,serif;
+font-weight:bolder;
+margin: 25px 50px 25px 100px;
+}
+#id4
+{
+font-family:georgia,garamond,serif;
+width:300px;
+font-weight:bolder;
+margin: auto;
+border-style:solid;
+padding:10px 10px 10px 30px;
+}
+#id5
+{
+width:300px;
+padding:100px;
+}
+div.classb1{
+width:300px;
+border:25px solid green;
+padding:25px;
+margin:25px;
+}
+div.classb2{
+width:300px;
+border:25px solid green;
+padding:25px;
+margin:25px;
+}
+li{
+display:inline;
+}
+span.a{
+  display: inline;
+border:1px solid blue;
+padding:5px;
+height:100px;
+width:100px;
+}
+span.b{
+  display: inline-block;
+border:1px solid blue;
+padding:5px;
+height:100px;
+width:100px;
+}
+span.c{
+  display: block;
+border:1px solid blue;
+padding:5px;
+height:100px;
+width:100px;
+}
+
+a:link,a:visited{
+color: white;
+text-decoration:none;
+
+}
+a:hover{
+color: green;
+
+}
+a:active{
+color: red;
+
+}
+A{
+display:inline;
+padding:10px;
+margin:5px;
+}
+nav.a{
+background-color:grey;
+border-style:solid;
+border-width:2px;
+padding:5px;
+margin:5px;
+width:300px;
+text-align:center;
+}
+p::first-letter{
+font-size:xx-large;
+color:#ff0000;
+}
+div.background{
+background:url("/home/6CSE1/pexels-photo-414612.jpeg");
+border:2px solid black;
+}
+div.transbox{
+margin:30px;
+background-color:#ffffff;
+opacity:0.4;filter:alpha(opacity=40);
+}
+#grad{
+background-image:linear-gradient(red,yellow);
 }
