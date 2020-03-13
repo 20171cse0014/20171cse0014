@@ -136,7 +136,7 @@ margin:5px;
 width:300px;
 text-align:center;
 }
-p::first-letter{
+h7::first-letter{
 font-size:xx-large;
 color:#ff0000;
 }
@@ -152,3 +152,43 @@ opacity:0.4;filter:alpha(opacity=40);
 #grad{
 background-image:linear-gradient(red,yellow);
 }
+::selection{
+color:red;
+background:yellow;
+}
+#grad2{
+background-image:radial-gradient(circle,red,orange,yellow,green,blue,indigo,violet);
+}
+#grad3{
+background-image:repeating-radial-gradient(white,green 10%,violet 20%);
+}
+div.e {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s,height 4s,transform 2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 1s;
+}
+div.e:hover{
+width:300px;
+height:300px;
+transform:rotate(360deg);
+}
+div.f {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
